@@ -242,18 +242,6 @@ public class CalculadoraBraba {
         this.resolver();
         this.executar(true);
     }
-    
-//    fatorial(1, 5)
-//    fatorial(5, 4)
-//    fatorial(20, 3)
-    
-    public void fatorial(int acumulado, int valor) {
-    if (valor <= 1) {
-//    print acumulado
-System.out.println(acumulado);
-    } else {
-        fatorial(acumulado * valor, valor -1);
-    }
-    
+       
     }
 }
