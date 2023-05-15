@@ -229,19 +229,13 @@ public class CalculadoraBraba {
         }
     }
     
-    public void executar(boolean repetir){
-        if (repetir) {
-            this.reclamar();
-        }
-        
+    public void executar(){
         this.cumprimentar();
         this.perguntarNome();
         this.buscarN1();
         this.buscarOperador();
         this.buscarN2();
-        this.resolver();
-        this.executar(true);
-    }
-       
+        this.resolver();   
+    }   
     }
 }
